@@ -1,0 +1,97 @@
+body {
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.App {
+  width: 75%;
+  height: 75%;
+  margin: 5em 11em;
+ 
+}
+
+#dataticker {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.4;
+  padding: 5px;
+  width: 67%;
+  margin: -5em;
+  margin-left: 0;
+  position: absolute;
+}
+
+
+
+#card {
+  display: none;
+  text-align: center;
+  background-color: #ddd;
+  opacity: 0.6;
+  border-radius: 5px;
+  color: #000;
+  padding: 5px;
+  width: 20%;
+  margin: -15em;
+  margin-left: 1em;
+  position: absolute;
+  animation-timing-function: ease-in;
+  animation: card 5s ; 
+}
+
+@keyframes card {
+  from { left: 0px;}
+  to {left: 175px;}
+}
+
+
+  
+
+
+#goals {
+  display: none;
+  text-align: center;
+  background-color: #ddd;
+  opacity: 0.6;
+  border-radius: 5px;
+  color: #000;
+  padding: 5px;
+  width: 20%;
+  margin: -10em;
+  margin-left: 1em;
+  position: absolute;
+  animation-timing-function: ease-in;
+  animation: goals 5s ;  
+}
+
+
+@keyframes goals {
+  from { left: 0px;}
+  to {left: 175px;}
+}
+
+
+
+#endhalf {
+  display: none;
+  text-align: center;
+  background-color: #ddd;
+  opacity: 0.6;
+  border-radius: 5px;
+  color: #000;
+  padding: 5px;
+  width: 20%;
+  margin: -25em;
+  margin-left: 1em;
+  position: absolute;
+  animation-timing-function: ease-in;
+  animation: endhalf 5s ; 
+
+}
+
+@keyframes endhalf {
+  from { left: 0px;}
+  to {left:450px;}
+}
